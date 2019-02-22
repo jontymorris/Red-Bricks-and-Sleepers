@@ -6,6 +6,10 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
 
+    @media screen and (max-width: $breakpoint-small) {
+        font-size: 1em;
+    }
+
     .bold-text {
         font-weight: bold;
         display: block;

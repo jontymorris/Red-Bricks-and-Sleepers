@@ -47,6 +47,9 @@ footer {
   background-image: url(../img/footer.jpg);
   background-size: cover;
   background-repeat: no-repeat; }
+  @media screen and (max-width: 700px) {
+    footer {
+      font-size: 1em; } }
   footer .bold-text {
     font-weight: bold;
     display: block; }
