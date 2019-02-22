@@ -1,0 +1,9 @@
+$breakpoint-medium: 1000px;
+$breakpoint-small: 700px;
+
+@import "fonts";
+@import "global";
+
+@import "header";
+@import "content";
+@import "footer";

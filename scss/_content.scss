@@ -1,0 +1,16 @@
+.content {
+    width: 70%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 70px 0px 70px 0px;
+
+    @media screen and (max-width: $breakpoint-medium) {
+        padding: 50px 0px 50px 0px;
+        width: 80%;
+    }
+
+    @media screen and (max-width: $breakpoint-small) {
+        width: 90%;
+        padding: 30px 0px 30px 0px;
+    }
+}
