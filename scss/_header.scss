@@ -11,13 +11,15 @@ header {
     }
 
     @media screen and (max-width: $breakpoint-small) {
-        padding: 50px 30px 50px 30px;
+        
+        padding: 70px 30px;
     }
 
     .lead-text {
         display: block;
         font-size: 2em;
         font-weight: bold;
+        margin-bottom: 20px;
     }
 
     .sub-text {
