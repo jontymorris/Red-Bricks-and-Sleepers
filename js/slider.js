@@ -7,7 +7,9 @@ $(document).ready(function() {
         autoplaySpeed: 3500,
         slidesToShow: 1,
         slidesToScroll: 1,
-        adaptiveHeight: true,
+        variableWidth: true,
+        centerMode: true,
         pauseOnHover: false,
+        pauseOnFocus: false,
     });
 });
