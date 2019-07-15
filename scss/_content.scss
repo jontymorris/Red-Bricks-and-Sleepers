@@ -4,6 +4,11 @@
     margin: auto;
     padding: 70px 0px 70px 0px;
 
+    a {
+        color: #2a2c88;
+        text-decoration: none;
+    }
+
     @media screen and (max-width: $breakpoint-medium) {
         padding: 50px 0px 50px 0px;
         width: 80%;
